@@ -1,0 +1,31 @@
+Q0. what is the networking in c, which one helps to built the networking in c?
+A0. the networking defines the communication of the two or more devices over the internet !, sockets help in building the networking!.
+Q1. what are the sockets in c ?
+A1. We use the sockets to built the communication of the two systems/computers/embedded_devices;
+Q2. how can we implement this in c?
+A2. with some header files like 
+    1.system socket == (#include<sys/socket.h>), 
+    2.network internet == (#include<netinet/in.h>), and 
+    3.advance research projects agency internet == (#include<arpa/inet.h>)!
+Q3. what is tcp ?
+A3. tcp obrivates transfer control protocol, established in the transport layer of open system interface, 
+    helps in communication of two devices! offers reliablity communication since it is connection oriented network protocol!
+Q4. what is the upd?
+A3. udp obrivates user datagram protocol, established in the trnsoport layer of open system interface,
+    helps in communication of the two devices!, offers fast communication since it is connection less network protocal!
+Q5. what are the main types of the sockets?
+A4. there are two main types of sockets
+    1. stream socket! (SOCK_STREAM);
+    2. datagram socket! (SOCK_DGRAM);
+Q6. what are the types of ip_addressess we have actually ?
+A6. there are main two types of ip_addressess which are 1. ipv4 == AF_INET, 2. ipv6 == AF_INET6;
+Q7. what is the osi ?,what are the layers of OPEN SYSTEM INTERFACE (OSI) help us in communication,
+A7. the osi defines how the devices communicate step by step by following the OSI model
+    OSI offers 7 layers !
+    1.appication layer (what application we use to make the communication);
+    2.presentation layer (encryption of the data);
+    3.session layer (conducts the session for the communication);
+    4.transport layer (offers network protocols (tcp,udp) for communication!);
+    5.network layer (adding the network like ipv4 or ipv6) and (data into packets (packet == piece of the data));
+    6.data link layer (transfer the data between the devices using samenetwork by the macaddressess) (each packet will be ad frame! );
+    7.physical layer (convers the data into signals like electrical singals, light signals and etc.) (each freame will converted as bits ! (0,1));
