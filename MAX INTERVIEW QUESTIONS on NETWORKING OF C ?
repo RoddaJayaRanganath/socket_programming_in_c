@@ -29,3 +29,10 @@ A7. the osi defines how the devices communicate step by step by following the OS
     5.network layer (adding the network like ipv4 or ipv6) and (data into packets (packet == piece of the data));
     6.data link layer (transfer the data between the devices using samenetwork by the macaddressess) (each packet will be ad frame! );
     7.physical layer (convers the data into signals like electrical singals, light signals and etc.) (each freame will converted as bits ! (0,1));
+Q8. what are the functions of the sockets ?
+A8. 1. create socket == socket(with three arguments);
+    2. binding of ip_address,ip_address type, port number = bind(with three arguments);
+    3. listening allowing the clients in the queue = listen(with two arguments);
+    4. accepting = accept(two arguments);
+    5. sending/receing functions;
+    6. closing sockets;
